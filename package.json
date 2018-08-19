@@ -1,0 +1,33 @@
+{
+  "name": "format-date-time",
+  "version": "0.0.1",
+  "description": "超轻量时间日期格式转换工具",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeahWLC/format-date-time.git"
+  },
+  "keywords": [
+    "format"
+  ],
+  "author": "https://github.com/LeahWLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeahWLC/format-date-time/issues"
+  },
+  "homepage": "https://github.com/LeahWLC/format-date-time#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
